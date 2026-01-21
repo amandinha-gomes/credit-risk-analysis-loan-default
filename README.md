@@ -26,14 +26,26 @@ Identificar padrões associados ao default é essencial para:
 ### 1️⃣ Distribuição de Inadimplência
 Análise da proporção entre clientes adimplentes e inadimplentes, validando a base como representativa de cenários reais de crédito.
 
+![Distribuição de Inadimplência](images/01_default_distribuicao.png)
+Observa-se que a maioria dos contratos não entrou em default, mas uma parcela
+relevante apresenta inadimplência, indicando risco significativo na carteira.
+
 ### 2️⃣ Score de Crédito × Default
 Avaliação da relação entre score de crédito e inadimplência, evidenciando que clientes inadimplentes tendem a apresentar scores mais baixos.
+
+![Distribuição de Inadimplência](images/02_score_credito_vs_default.png)
+Observa-se que clientes inadimplentes apresentam, em média, scores de crédito mais baixos, reforçando a relevância do score como indicador de risco, embora não seja determinístico.
 
 ### 3️⃣ Renda × Default
 Análise da distribuição de renda entre clientes adimplentes e inadimplentes, mostrando que renda isoladamente não elimina o risco de crédito.
 
+![Distribuição de Inadimplência](images/03_renda_vs_default.png)
+
 ### 4️⃣ Debt-to-Income Ratio (DTI) × Default
 Estudo do comprometimento da renda com dívidas, destacando o DTI como um dos principais indicadores de risco utilizados por bancos.
+
+![Distribuição de Inadimplência](images/04_dti_vs_default.png)
+Observa-se que clientes com maior Debt-to-Income Ratio apresentam maior propensão à inadimplência, reforçando o DTI como um dos principais indicadores utilizados em análises de crédito.
 
 ---
 
@@ -61,7 +73,9 @@ Estudo do comprometimento da renda com dívidas, destacando o DTI como um dos pr
 
 ---
 
-## 📎 Fonte dos Dados
-Dataset público disponível no Kaggle:  
-**Loan Default Dataset**
+## 📎 Dataset
+- **Fonte:** Kaggle – Loan Default Dataset  
+- **Link:** https://www.kaggle.com/datasets/yasserh/loan-default-dataset
+- **Registros:** ~150 mil  
+- **Observação:** O dataset não está versionado neste repositório por questões de tamanho.
 
